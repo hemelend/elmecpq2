@@ -1,0 +1,172 @@
+div.blockWrp li {
+	list-style:none;
+	line-height:1em;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+h3 {
+	margin:0 auto 5px auto;
+}
+#TabbedPanel1 div.tabborder {
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+}
+#TabbedPanel1 p, #TabbedPanel1 blockquote {margin-bottom:1em; line-height:1.25em;}
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+
+/* This is the selector for the main TabbedPanels container. For our
+ * default style, this container does not contribute anything visually,
+ * but it is floated left to make sure that any floating or clearing done
+ * with any of its child elements are contained completely within the
+ * TabbedPanels container, to minimize any impact or undesireable
+ * interaction with other floated elements on the page that may be used
+ * for layout.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+.TabbedPanels {
+	width:591px;
+	margin: 0px;
+	padding: 0px;
+}
+/* This is the selector for the TabGroup. The TabGroup container houses
+ * all of the tab buttons for each tabbed panel in the widget. This container
+ * does not contribute anything visually to the look of the widget for our
+ * default style.
+ *
+ * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabGroup container.
+ */
+.TabItemsGroup {
+	background:url(../img/TabbedPanels.gif) repeat-x 0 0;
+	margin: 0 auto 1px 0px;
+	height:36px;
+	padding:0px 0px 0px 0px;
+	position:relative;
+}
+.TabItemsGroup li.Tab {
+	position: relative;
+	top: 0px;
+	float: left;
+	font: normal 13px sans-serif;
+	list-style: none;
+	cursor: pointer;
+	margin-right:5px;
+	padding-left:5px;
+	background: url(../img/tabinactive-l.png) 0 0 no-repeat;
+}
+.TabItemsGroup li.Tab span{
+	display:block;
+	padding:11px 33px 9px 29px;
+	background: url(../img/tabinactive-r.png) 100% 0 no-repeat;
+}
+.TabItemsGroup li.Tab:focus {
+	outline:none;
+}
+.TabItemsGroup li.Tab:focus span{
+
+}
+.TabHover span{
+	color: #000;
+}
+
+.TabItemsGroup li.selected {
+	background: url(../img/tabactive-l.png) 0 0 no-repeat;
+	
+}
+.TabItemsGroup li.selected span {
+	color:#000;
+	background: url(../img/tabactive-r.png) 100% 0 no-repeat;
+}
+.Tab a {
+	color: black;
+	text-decoration: none;
+}
+.blockWrp {
+	margin:-1px 7px 7px;
+	padding:7px 27px 0px 31px;
+}
+* html .blockWrp {
+	height:100px;
+}
+.blockWrp, .blockWrp p {
+	color:#575757 !important;
+	line-height:16px !important;
+}
+.blockWrp ul {
+	margin:0px 0px 0px 0px;
+}
+.blockWrp li {
+	background:url(../img/list-item3.gif) no-repeat 0 4px; 
+	padding:0px 0px 9px 18px;
+}
+.body2 .blockWrp li {
+	background:url(../img/list-item4.gif) no-repeat 0 4px; 
+}
+.body3 .blockWrp li {
+	background:url(../img/list-item5.gif) no-repeat 0 4px; 
+}
+.body .blockWrp li a, .body .blockWrp li a:hover, .body .blockWrp li a:visited{
+	color:#306ab2 !important;
+	text-decoration:none;
+}
+.body2 .blockWrp li a, .body2 .blockWrp li a:hover, .body2 .blockWrp li a:visited{
+	color:#FC625A !important;
+	text-decoration:none;
+}
+.body3 .blockWrp li a, .body3 .blockWrp li a:hover, .body3 .blockWrp li a:visited{
+	color:#136F00 !important;
+	text-decoration:none;
+}
+.blockWrp img {
+	margin:0px 15px 0px 0px;
+}
+.TabModulesGroup {
+	font-size:0.8em;
+	color:#602f1c;
+	margin:0 auto;
+	width:531px;
+}
+.TabbedPanels{
+	margin-top:-1px;
+}
+.wrapper {
+	position:relative;
+	background:url(../img/rightside.png) repeat-y right top;
+	margin:-1px 0 0px 0;
+	width:100%;
+
+}
+
+.tabs-bottom {
+	height:6px;
+	background:url(../img/border.gif) repeat-x 0 bottom;
+}
+.tabs-bottom span {
+	display:block;
+	background:url(../img/corner-bottom-left.gif) no-repeat 0 bottom;
+}
+.tabs-bottom span span{
+	display:block;
+	height:6px;
+	line-height:6px;
+	background:url(../img/corner-bottom-right.gif) no-repeat right bottom;
+}
+.TabContent {
+	padding:10px 0px 10px 0px;
+}
